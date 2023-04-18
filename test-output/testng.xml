@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Shopify Sign Up">
+	<parameter name="browser" value="edge"></parameter>
+  <test  name="mini project">
+	  <classes>
+		  <class name="com.cognizant.miniproject.StoreNameMandatoryCheck.AppTest"></class>
+	  </classes>
+  </test> <!-- verify login -->
+</suite> <!-- facebook page login -->
